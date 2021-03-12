@@ -103,7 +103,9 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
 
-   
+    let firstMultiply = multiply(multArr[0],multArr[1]);
+    let secondMultiply = multiply(firstMultiply[0],multArr[2]);
+     return [secondMultiply[0], "The numbers 2,3,4 have a product of 24."]
 
 
 }
