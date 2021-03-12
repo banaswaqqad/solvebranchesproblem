@@ -9,6 +9,11 @@ Test this function by hand in the console to get it working, and when you think 
 function sum(a, b) { //eslint-disable-line
 
     
+let numOne=a+b;
+let myarray=[numOne,'The sum of 4 and 7 is 11.'];
+
+return myarray;
+
 }
 
 // Here is the test for sum(); uncomment it to run it
